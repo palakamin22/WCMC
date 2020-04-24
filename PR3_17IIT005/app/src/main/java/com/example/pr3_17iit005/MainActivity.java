@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         final Runnable r = new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(getApplicationContext(),"Toast, Toast!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Toast, Toast!",Toast.LENGTH_LONG).show();
             }
         };
         t.scheduleAtFixedRate(new TimerTask() {
@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 h.post(r);
             }
-        },60000,300000);
+        },10000,100000);
     }
 }

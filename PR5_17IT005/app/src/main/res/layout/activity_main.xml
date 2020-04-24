@@ -43,10 +43,10 @@
         android:text="enter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Cancel"
-        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintHorizontal_bias="0.574"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.378" />
 
     <Button
         android:id="@+id/Cancel"
